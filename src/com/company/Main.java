@@ -1,6 +1,7 @@
 package com.company;
 import com.company.Product;
 import com.company.Shoes;
+import com.company.Watch;
 
 public class Main {
 
@@ -20,6 +21,8 @@ public class Main {
         System.out.println(Adidasi.getSize());
         System.out.println(Adidasi.getSuperiorQuality());
         System.out.println(Adidasi.getTypeShoes());
+        Watch Ceas=new Watch( " Rolex",20000f,"Rolex",2003,"gold",10.2f ,0.155f);
+        System.out.println(Ceas);
 
     }
 }
