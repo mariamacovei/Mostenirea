@@ -12,7 +12,7 @@ public class Main {
         System.out.println(MissDior.getYearOfProduction());
         System.out.println(MissDior.getColor());
         System.out.println("      New product of shoes:     ");
-        Shoes Adidasi=new Shoes("addasi",1025.98f," Coquette",2019,"white",38,true,"sport");
+        Shoes Adidasi=new Shoes("addiasi",1025.98f," Coquette",2019,"white",38,true,"sport");
         System.out.println(Adidasi.getNameProduct());
         System.out.println(Adidasi.getPrice());
         System.out.println(Adidasi.getManufacturer());
